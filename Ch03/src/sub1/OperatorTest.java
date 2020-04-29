@@ -39,16 +39,34 @@ public class OperatorTest {
 		//복합대입연산자
 		int no1=1, no2=2, no3=3, no4=4;
 		
-		no1 +=1;
-		no2 -=2;
-		no3 *=3;
-		no4 /=4;
+		no1 +=1; // no1 = no1 + 1;
+		no2 -=2; // no2 = no2 - 2;
+		no3 *=3; // no3 = no3 * 3;
+		no4 /=4; // no4 = no4 / 4;
 		
 		System.out.println("no1 : "+no1);
 		System.out.println("no2 : "+no2);
 		System.out.println("no3 : "+no3);
 		System.out.println("no4 : "+no4);
+		
 		//비교연산자
+		int var1=1;
+		int var2=2;
+		
+		boolean res1=(var1 > var2); // var1이 var2보다 크다.
+		boolean res2=(var1 < var2); // var1이 var2보다 작다.
+		boolean res3=(var1 >= var2); // var1이 var2보다 크거나 같다.
+		boolean res4=(var1 <= var2); // var1이 var2보다 작거나 같다.
+		boolean res5=(var1 == var2); // var1이 var2와 서로 같다 .
+		boolean res6=(var1 != var2); // var1이 var2와 서로 다르다 .
+		
+		System.out.println("res1 : "+res1);
+		System.out.println("res2 : "+res2);
+		System.out.println("res3 : "+res3);
+		System.out.println("res4 : "+res4);
+		System.out.println("res5 : "+res5);
+		System.out.println("res6 : "+res6);
+		
 		//논리연산자
 	}
 
