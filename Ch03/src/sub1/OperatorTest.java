@@ -68,6 +68,18 @@ public class OperatorTest {
 		System.out.println("res6 : "+res6);
 		
 		//논리연산자
+		boolean r1 = (var1 > 0) && (var2 > 1); // var1은 0보다 크고 그리고 var2는 1보다 크다.
+		boolean r2 = (var1 > 0) && (var2 > 2); // var1은 0보다 크고 그리고 var2는 2보다 크다.
+		boolean r3 = (var1 > 0) || (var2 > 2); // var1은 0보다 크고 또는 var2는 2보다 크다.
+		boolean r4 = (var1 > 1) || (var2 > 2); // var1은 0보다 크고 또는 var2는 2보다 크다.
+		boolean r5 = !(var1>var2); // var1은 var2보다 크지 않다.
+		
+		System.out.println("r1 : "+r1);
+		System.out.println("r2 : "+r2);
+		System.out.println("r3 : "+r3);
+		System.out.println("r4 : "+r4);
+		System.out.println("r5 : "+r5);
+		
 	}
 
 }
