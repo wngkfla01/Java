@@ -74,14 +74,38 @@ public class ForTest {
 				
 			}
 		}
-		//º° »ï°¢Çü I
-		//º° »ï°¢Çü II
 		
-	
-	
-	
-	
-	
+		
+		//º° »ï°¢Çü I
+		for(int start=10; start>=1; start--) {
+			
+			for(int end=1; end <= start; end++) {
+				
+				System.out.print("¡Ù");
+			}
+			System.out.print("\n");
+		}
+		
+		//º° »ï°¢Çü II	
+		for (int a=1; a <= 5; a++) {
+			for (int b=1; b<=5-a; b++) {
+				System.out.print("¡Ù");			
+			}
+			
+			for (int c =1; c <=a; c++) {
+				System.out.print("¡Ú");
+				
+			}
+			
+			System.out.print("\n");
+			
+			
+		}
+		
+		
+		
+		
+		
 	}
 
 }
