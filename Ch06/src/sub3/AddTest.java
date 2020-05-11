@@ -21,7 +21,9 @@ public class AddTest {
 		a.add(arr);
 		System.out.println("°´Ã¼ arrÀÇ 1¹øÂ° ¿ø¼Ò : "+arr[0]);
 		
-		a.addNew(a);
+		a = a.addNew(a);
+		
+		
 		System.out.println("°´Ã¼ addNewÀÇ ¸â¹ö x : "+a.getX());
 		
 		

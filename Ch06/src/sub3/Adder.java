@@ -33,12 +33,12 @@ public class Adder {
 	}
 	
 	public void add(Adder a1) {
-		int x = a1.getX() + 40;
-		a1.setX(x);
+		a1.x = a1.x + 40;
 	}
 	
-	public void addNew(Adder a2) {
+	public Adder addNew(Adder a2) {
 		a2 = new Adder(1);
+		return a2;
 	}
 }
 
