@@ -64,19 +64,15 @@ public class WhileTest {
 		for(int j=1 ; j<=10 ; j++) {
 			
 			if(j%2 ==1) {
-				continue;
+				continue;   //반복문의 상위로 이동
 			}
 			
 			total += j;
-			
-			
+				
 		}
+		
 		System.out.println("1부터 10까지 짝수 합 : " +total);
 		
-			
-			
-			
-			
 			
 			
 		
