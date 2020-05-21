@@ -50,4 +50,4 @@ public class DataTypeTest {
 		System.out.println("str3 : "+str3);
 		
 	}
-
+}
