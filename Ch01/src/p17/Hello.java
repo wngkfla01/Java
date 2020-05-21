@@ -11,4 +11,4 @@ public class Hello {
 		System.out.println("Hello, welcome to the java world!");
 	} //end of main
 
-} //end of class
+ //end of class
