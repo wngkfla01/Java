@@ -13,7 +13,7 @@ public class JavaTest4 {
 		int y = -2;
 		
 		System.out.println("x+(-y)= " +(x+(-y)));
-		System.out.println("x+(-y)= " +(-x+(+y)));
+		System.out.println("-x+(+y)= " +(-x+(+y)));
 	}
 
 }

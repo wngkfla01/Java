@@ -10,7 +10,7 @@ public class JavaTest9 {
 	
 	public static void main(String[] args) {
 		
-		int n=5;
+		int n=5;  ///출력될 피라미드의 층 수를 의미
 		for (int i = 0; i < n; i++) {
 			for (int j = n-1; j > i; j--) {
 				System.out.print(" ");

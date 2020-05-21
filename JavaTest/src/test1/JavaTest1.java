@@ -1,7 +1,5 @@
 package test1;
 
-import java.util.Scanner;
-
 
 /*
  * ³¯Â¥ : 2020.05.01
@@ -19,7 +17,7 @@ public class JavaTest1 {
 		boolean var6 = true;
 		boolean var7 =false; 
 		String var8 = "Hello";
-		Object var9  = null;
+		String var9  = null;   ///Objectµµ µÊ
 		 
 		 System.out.println("var1 : "+var1);
 		 System.out.println("var2 : "+var2);

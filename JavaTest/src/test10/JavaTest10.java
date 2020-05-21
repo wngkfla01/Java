@@ -16,8 +16,8 @@ public class JavaTest10 {
 		System.out.print(n1+",");
 		System.out.print(n2+",");
 		
-		for (int i = 0; i <= 10; i++) {
-			n3=n1+n2;
+		for (int i = 0; i <= 9; i++) {
+			n3=n1+n2;   //피보나치 수열 공식
 			System.out.print(n3+",");
 			
 			n1=n2;
