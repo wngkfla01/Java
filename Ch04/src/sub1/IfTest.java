@@ -18,7 +18,7 @@ public class IfTest {
 
 		if (num1 < num2) {
 			System.out.println("num1이 num2보다 작다.");
-		
+		}
 
 		if (num1 > 0) {
 			if (num2 > 1) {
