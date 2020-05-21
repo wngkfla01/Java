@@ -14,6 +14,7 @@ public class SignOperatorExample {
 		int result3 = -s;
 		System.out.println("result3="+result3);
 		
+		
 	}
 
 	
