@@ -23,14 +23,13 @@ public class SelectTest {
 		// 2단계 - 데이터베이스 접속
 		Connection conn = DriverManager.getConnection(host, user, pass);
 		
-		
 		// 3단계 - SQL 실행객체 생성
 		Statement stmt = conn.createStatement();
-		
 		
 		// 4단계 - SQL 실행
 		String sql = "SELECT * FROM `USER1`";
 		ResultSet rs = stmt.executeQuery(sql);
+		
 		
 		// 5단계 - 결과셋 처리(SELECT일 경우)
 		while(rs.next()) {
@@ -42,6 +41,7 @@ public class SelectTest {
 			
 		}
 		
+
 		
 		// 6단계 - 데이터베이스 종료
 		conn.close();
