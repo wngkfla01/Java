@@ -63,7 +63,7 @@
   sub4. 수학클래스 실습하기
   sub5. Calendar, Date 클래스 실습하기
 ```
-##Ch12.스레드
+## Ch12.스레드
 ```
   sub1. 스레드(Thread) 실습하기(1)
   sub2. 스레드(Thread) 실습하기(2)
